@@ -2,18 +2,6 @@
 
 ---
 
-## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
-
-Sometimes, we want need to use a more convoluted targeting method. 😜
-
-- Adjacent sibling combinator `div + p`
-- General sibling combinator `div ~ p`
-- Child combinator `div > p`
-- Descendant combinator `div p`
-
----
-
-
 ## CSS Pixels
 
 - Your monitor is divided into pixels (screen pixels).
@@ -21,7 +9,11 @@ Sometimes, we want need to use a more convoluted targeting method. 😜
 
 This `px` unit is **not** a screen pixel, but a CSS pixel.
 
-It's approx. 1/96 inches, _but it varies from display to display._
+---
+
+- Small laptop resolution: 1366 x 768
+- "1080p" resolution: 1920 x 1080
+- iPhone X screen resolution: 2436 x 1125
 
 ---
 
@@ -33,7 +25,15 @@ It's approx. 1/96 inches, _but it varies from display to display._
 
 The same site on a mobile device
 
-<img src='./assets/nresp_mobile.png' />
+<img src="./assets/nresp_mobile.png" />
+
+---
+
+## "Retina displays"
+
+Apple's fancy branding term
+
+Every "normal" pixel is made up of 4 pixels.
 
 ---
 
@@ -49,50 +49,25 @@ This will make the CSS pixels scale on mobile devices.
 
 The same site _fixed_
 
-<img src='./assets/nresp_mobile_fix.png' />
+<img src="./assets/nresp_mobile_fix.png" />
 
 ---
 
-## [Responsive vs. Mobile-first](https://darwindigital.com/mobile-first-versus-responsive-web-design/)
+## Responsive Web Design
 
 ---
 
-<img src='./assets/responsive.png' />
+Websites shift content around depending on the screen size.
+
+[Montreal Gazette](https://montrealgazette.com/)
 
 ---
 
-<img src='./assets/mobile_first.png' />
+## Mobile-first
 
----
+In design, it is recommended to _start with the mobile size_.
 
-### Responsive (pros)
-
-- Good for heavily stacked information websites
-- Easier for large forms and complex call-to-actions
-- Cost-effective development and maintenance
-- Great for SEO
-
----
-
-### Responsive (cons)
-
-- The mobile experience is not 100% optimized
-
----
-
-### Mobile-First (pros)
-
-- Better user-experience on mobile devices
-- Majority of internet browsing in on a smartphone
-- Design website to use built-in phone features
-- Cheaper than building an iOS, Android or Hybrid App
-
----
-
-### Mobile-First (cons)
-
-- The desktop experience is not 100% optimized
-- Not suited for content heavy websites
+It's easier to add stuff for larger screens than to take away stuff on smaller screens.
 
 ---
 
@@ -117,6 +92,46 @@ Media queries can be used to check many things, such as:
 
 ---
 
+# Exercises
+
+---
+
+# Exercise 1
+
+Change the font size based on the window size
+
+https://codepen.io/joshwcomeau/pen/QWbeygM?editors=1100
+
+---
+
+# Exercise 2
+
+Change the flex direction based on the orientation
+
+https://codepen.io/joshwcomeau/pen/wvaVMpJ?editors=1100
+
+---
+
+# Exercise 3
+
+Use a media query to stack the two columns
+
+https://codepen.io/joshwcomeau/pen/GRJVpYb?editors=1100
+
+---
+
+# Fonts on the Web
+
+There are only about a dozen fonts that come included with all operating systems.
+
+They aren't pretty.
+
+---
+
+[Google Fonts](https://fonts.google.com/)
+
+---
+
 # Advanced topics
 
 ---
@@ -130,16 +145,20 @@ Media queries can be used to check many things, such as:
 - `:checked`
 - `:first-child`
 
-[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link)  |  [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
+[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link) | [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
 
 ---
 
-### [Pseudo elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#Index_of_standard_pseudo-elements)
+### CSS Viewport units
 
-- `::before`
-- `::after`
+There are many units in CSS.
 
-[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_before)
+Here are two handy ones:
+
+- `vh` - percentage of the Viewport Height
+- `vw` - percentage of the Viewport Width
+
+https://codepen.io/joshwcomeau/pen/gOpVMRE
 
 ---
 
@@ -153,3 +172,9 @@ Media queries can be used to check many things, such as:
 
 ---
 
+## CSS Animation
+
+Two ways to do this.
+
+- Transition
+- Keyframe animations
