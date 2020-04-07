@@ -86,6 +86,7 @@ The same site _fixed_
 - Majority of internet browsing in on a smartphone
 - Design website to use built-in phone features
 - Cheaper than building an iOS, Android or Hybrid App
+- Easier to add new stuff once we go to a desktop size screen
 
 ---
 
