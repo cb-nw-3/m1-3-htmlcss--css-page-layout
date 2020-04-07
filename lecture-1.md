@@ -88,6 +88,9 @@ Media queries can be used to check many things, such as:
 
 ### A basic media query
 
+- min-width first is for mobile -> tablet -> desktop
+- max-width first is for desktop -> tablet -> mobile
+
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
 
 ---
@@ -102,6 +105,21 @@ Change the font size based on the window size
 
 https://codepen.io/joshwcomeau/pen/QWbeygM?editors=1100
 
+Solutions:
+
+```css
+@media (min-width: 600px) {
+  h1 {
+    font-size:22px;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size:32px;
+  }
+}
+```
 ---
 
 # Exercise 2
@@ -110,6 +128,20 @@ Change the flex direction based on the orientation
 
 https://codepen.io/joshwcomeau/pen/wvaVMpJ?editors=1100
 
+Solution:
+
+```css
+@media (orientation: landscape) {
+  .wrapper {
+    justify-content: center;
+    flex-direction: row;
+  }
+  section {
+    flex: 1;
+  }
+}
+```
+
 ---
 
 # Exercise 3
@@ -117,6 +149,16 @@ https://codepen.io/joshwcomeau/pen/wvaVMpJ?editors=1100
 Use a media query to stack the two columns
 
 https://codepen.io/joshwcomeau/pen/GRJVpYb?editors=1100
+
+Solution:
+
+```css
+@media (max-width: 600px) { 
+  .wrapper {
+    flex-direction: column;
+  }
+}
+```
 
 ---
 
@@ -127,6 +169,9 @@ There are only about a dozen fonts that come included with all operating systems
 They aren't pretty.
 
 ---
+
+Use link tags in your header to reference font familys which you can activate
+later.
 
 [Google Fonts](https://fonts.google.com/)
 
@@ -140,12 +185,18 @@ They aren't pretty.
 
 ### [Pseudo classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#Index_of_standard_pseudo-classes)
 
+Allows for styling based on user interaction
+
 - `:hover`
 - `:focus`
 - `:checked`
 - `:first-child`
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link) | [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
+
+- `:before` and `contents:""` allows you to add text to every tag selected, instead of having to add the content yourself
+- pseudo selectors can be nested like `a:hover:before {}`
+
 
 ---
 
@@ -170,9 +221,42 @@ https://codepen.io/joshwcomeau/pen/gOpVMRE
 
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
 
+ 
+ ### Some examples
+
+- `transform: width 0.5s;` increases width with a transformation
+- `transform: scale(x);` scales up the text by x amount, same with `scaleX()` or `scaleY()`
+- `transform: rotate(45deg);` rotates
+
+Use `transition: transform 0.5s;` to slow down the animation a little bit to make it smoother.
+
+This code, will add a small red square before text, and when a user hover overs the P tag element on the webpage, the red square will rotate.
+
+```css
+p:hover:before {
+    transform: rotate(45deg);
+    transition: 250ms;
+}
+
+p:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: red;
+    transition: transform 2750ms;
+}
+```
+
+- The empty `content: ""` is required for the page to load the red square.
+- The additional `transition: transform 2750ms` returns the square back to its original state, in a smoother animation when not hovered on.
+- You can also add another `transform: rotate(-360deg);` in the `p:before{}` so that the default state will have the red square rotate back instead of going back to `deg(0);`
+
 ---
 
 ## CSS Animation
+
+hello
 
 Two ways to do this.
 
