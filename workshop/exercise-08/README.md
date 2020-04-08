@@ -4,6 +4,8 @@ Update only the CSS file to reproduce the following:
 
 ![exercise-8 goal](../../assets/ex-8-goal.gif)
 
+For the blue color, you can use the hex code `#2196f3`.
+
 ## Reference
 
 Needed CSS properties
