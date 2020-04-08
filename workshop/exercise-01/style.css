@@ -22,7 +22,7 @@ i can use the .item class to center them */
     justify-content: center;
 }
 
-.center {
+.baritem {
     background: black;
     color: white;
 }
