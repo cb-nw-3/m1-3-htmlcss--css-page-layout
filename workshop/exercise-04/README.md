@@ -1,6 +1,6 @@
 # 1.2 - CSS: Page Layout - Workshop
 
-## Exercise 6
+## Exercise 4
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
