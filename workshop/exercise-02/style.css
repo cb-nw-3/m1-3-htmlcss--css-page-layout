@@ -16,8 +16,6 @@ body {
     text-decoration: none;
     color: white;
     margin: 0 40px;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
     transition: opacity 0.2s;
 }
 
@@ -27,4 +25,8 @@ body {
 
 .logo {
     display: block;
+}
+
+img {
+    margin-top: 10px;
 }
