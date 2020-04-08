@@ -12,6 +12,37 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 2em;
-    margin: 40px;
+    padding: 20px;
+    position: relative;
 }
 
+.nav-dropdown > .dropdown-menu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #03a9f4;
+}
+
+.dropdown-menu {
+    /* position: absolute; */
+    display: none;
+
+}
+
+.dropdown-list {
+    /* list-style-type: none;
+    padding: 20px; */
+    margin: 0;
+    padding: 0;
+} 
+
+.dropdown-list > li {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.dropdown-list > li:hover {
+    background-color: dodgerblue;
+}

@@ -28,7 +28,7 @@ body {
 
 .menu-list {
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .menu-list > li {
