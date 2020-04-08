@@ -5,6 +5,10 @@ body {
     font-family: Arial;
 }
 
+/* flex box basics -> get flex container -> get flex items */
+/* then decide how each flex item will be posititioned, since they are all centered
+i can use the .item class to center them */
+
 .container {
     display: flex;
     min-height: 100vh;
@@ -16,6 +20,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.center {
+    background: black;
+    color: white;
 }
 
 .content {
