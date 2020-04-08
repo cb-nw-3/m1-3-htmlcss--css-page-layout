@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Poppins";
 }
 
 .nav {
@@ -10,4 +11,7 @@ body {
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    font-size: 2em;
+    margin: 40px;
 }
+
