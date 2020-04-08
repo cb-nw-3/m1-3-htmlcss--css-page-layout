@@ -1,0 +1,38 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.nav {
+    height: 50px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    border: 2px gold;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 50px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

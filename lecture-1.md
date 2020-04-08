@@ -274,3 +274,37 @@ Two ways to do this.
 
 - Transition
 - Keyframe animations 
+
+### Keyframe Animations
+
+A red box will slowly fade in whenever the page is loaded.
+
+```css
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  background: red;
+  animation-name: fadeIn;
+  /* if you want to have a delay, add anoter time attribute like 5000ms to the animation line */
+
+  animation-duration: 3500ms; /* how long the animation lasts */
+  animation-delay: 1000ms:
+  animation-fill-mode: both; 
+  /* backwards: reverts back to default styling before animation */
+  /* forwards: keeps styling as defined by the animation */
+  /* both: loops it   */
+
+
+
+}
+```
