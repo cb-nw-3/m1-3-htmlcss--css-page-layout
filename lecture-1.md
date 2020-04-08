@@ -252,13 +252,25 @@ p:before {
 - The additional `transition: transform 2750ms` returns the square back to its original state, in a smoother animation when not hovered on.
 - You can also add another `transform: rotate(-360deg);` in the `p:before{}` so that the default state will have the red square rotate back instead of going back to `deg(0);`
 
+### Example: Smooth Accordion
+
+In a mobile experience, when you have a p tag that is collaspable (contains text), on a deskptop experience, you want this transition to be smooth. But for mobile users, this should not be the case. The accordion as its called will be set to have a 0ms transition as follows:
+
+```css
+
+@media (max-width:2380px) {
+  *, *:before, *:after {
+    transition-duration: 0ms
+    !important;
+  }
+}
+
+```
 ---
 
 ## CSS Animation
 
-hello
-
 Two ways to do this.
 
 - Transition
-- Keyframe animations
+- Keyframe animations 
