@@ -5,3 +5,50 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+/* i have 3 elements that need to be aligned in a row 
+and be spaced between */
+
+/* these properties need to apply to the flex-container which is in header tag */
+.container > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* this is for the flex items */
+.desktop-nav ul {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+/* this is to space out the flex items from each other */
+.desktop-nav ul li {
+  margin: 0 15px;
+}
+
+/* this takes the last list item of UL and gives it a margin-right of zero
+so that it sits flush to the end of the container */
+
+/* not entirely necessary for this example */
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+/* if the window is >> 800px then do not display img */
+@media (min-width:800px){
+  .mobile-nav {
+    display:none;
+  }
+}
+
+/* if the window is << 800px then hide the desktop menu */
+@media (max-width:799px){
+  .desktop-nav {
+    display:none;
+  }
+}
+
