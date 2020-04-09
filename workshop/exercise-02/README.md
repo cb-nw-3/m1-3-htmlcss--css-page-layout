@@ -29,7 +29,7 @@ Your HTML should have the following structure:
   - You will have to add a `<link>` tag in the head of your HTML file.
 - The apple icon is in the imgs folder.
 - You will need to use `display: block` or the icon won't be aligned (inline elements are affected by line-height which is not 0 by default)
-- The background color for the navbar is `#3a363`
+- The background color for the navbar is `#3a3633`
 - To remove the default underline style on anchor tags you can use `text-decoration: none`
 - You can use the `href="#"` attribute on `<a>` to make the anchor tags behave like links (with hand cursor). `#` refers to the current page (so the link will just reload the page)
 - You will need to use the `:hover` pseudo selector on the navbar links and change the opacity.
