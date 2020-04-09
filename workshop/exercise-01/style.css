@@ -1,0 +1,41 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Arial', 'helvetica neue',sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden; /*This property specifies whether to clip content or to add scrollbars when an element's*/
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.panel:nth-child(2n+1){
+  color: white;
+  flex:2;
+  background-color: rgba(0, 0, 0, .85);
+}
+
+
+.content{
+  font-weight: 800;
+  flex: 50;
+}
+
+

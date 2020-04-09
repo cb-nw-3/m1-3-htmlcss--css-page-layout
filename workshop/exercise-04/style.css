@@ -1,0 +1,60 @@
+html{
+  font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panel{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: x-large;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px black;
+  letter-spacing: 1.1px;
+}
+
+h2{
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+
+.msg{
+  font-size: x-large;
+  font-weight: 300;
+  max-width: 24em;
+}
+
+a{
+  color: #336690;
+  font-weight: 700;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+a::after{
+  content:'>';
+  display: inline-block;
+  padding-left: 12px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+
