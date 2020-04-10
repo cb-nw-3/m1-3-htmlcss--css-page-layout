@@ -28,14 +28,13 @@ body{
 
 .panel:nth-child(2n+1){
   color: white;
-  flex:2;
   background-color: rgba(0, 0, 0, .85);
 }
 
 
 .content{
   font-weight: 800;
-  flex: 50;
+  flex: 1;
 }
 
 
