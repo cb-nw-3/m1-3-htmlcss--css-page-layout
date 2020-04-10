@@ -1,0 +1,40 @@
+/* html {
+    background-color: mistyrose;
+} */
+
+body {
+    margin: auto;
+    font-family: "Poppins",  "sans-serif";
+    min-height: 100vh;
+    border: 10px solid goldenrod;
+
+}
+
+
+.nav {
+    background-color: #3a3a3a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.main {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* 70px is the combined height of both nav and footer elements */
+    min-height: calc(100vh - 70px);
+    border: 10px solid goldenrod;
+    align-content: center;
+}
+
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #3a3a3a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
