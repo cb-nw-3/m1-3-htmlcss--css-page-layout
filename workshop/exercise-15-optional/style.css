@@ -1,0 +1,46 @@
+body {
+  margin: 20px;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  opacity: 0.8;
+  background-color: white;
+}
+
+.btn-primary {
+  border: 2px solid royalblue;
+  color: royalblue;
+}
+.btn-secondary {
+  border: 2px solid gray;
+  color: gray;
+}
+.btn-success {
+  border: 2px solid green;
+  color: green;
+}
+.btn-danger {
+  border: 2px solid rgb(209, 53, 74);
+  color: rgb(209, 53, 74);
+}
+.btn-warning {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+}
+.btn-info {
+  border: 2px solid rgb(89, 167, 231);
+  color: rgb(89, 167, 231);
+}
+.btn-light {
+  border: 2px solid #e7e7e7;
+  color: #e7e7e7;
+}
+.btn-dark {
+  border: 2px solid rgb(58, 57, 57);
+  color: rgb(58, 57, 57);
+}

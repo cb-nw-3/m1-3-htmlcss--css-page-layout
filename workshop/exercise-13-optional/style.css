@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.alert {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.alert-primary {
+  background-color: rgba(0, 14, 163, 0.3);
+  color: rgb(0, 14, 163);  
+}
+.alert-secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.alert-success {
+  background-color: rgba(16, 69, 14, 0.3);
+  color: rgb(16, 69, 14);
+}
+.alert-danger {
+  background-color: rgba(99, 8, 60, 0.3);
+  color: rgb(99, 8, 60);
+}
+.alert-warning {
+  background-color: rgba(158, 148, 6, 0.3);
+  color: rgb(158, 148, 6);  
+}
+.alert-info {
+  background-color: rgba(31, 102, 98, 0.3);
+  color: rgb(31, 102, 98);
+}
+.alert-light {
+  background-color: white;
+  color: gray;
+}
+.alert-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
