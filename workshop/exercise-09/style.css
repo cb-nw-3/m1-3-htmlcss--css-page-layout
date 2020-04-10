@@ -6,7 +6,7 @@ h3 {
 .facts {
   border-collapse: collapse;
   width: 100%;
-  border: 10px solid goldenrod;
+  /* border: 10px solid goldenrod; */
 }
 
 .facts td, .facts th {
