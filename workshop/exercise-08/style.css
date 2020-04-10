@@ -42,6 +42,7 @@ body {
   text-align: left;
   margin-left: 10px;
   padding: 5px 5px;
+  background-color: #fff;
 }
 
 label {
@@ -55,21 +56,37 @@ label {
 }
 
 .section > label {
-
+  text-align: left;
 }
 
 select {
-
+  margin-left: 10px;
 }
 
 textarea {
-
+  display: block;
+  margin: 10px auto;
+  min-width: 95%;
+  min-height: 5em;
+  background-color: rgb(243, 243, 243);
+  border-color: #ddd;
 }
 
 .form-button {
-
+  display: block;
+  margin: 15px auto;
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  padding: 10px 40px;
+  /* min-width: 50px;
+  min-height: 30px;
+   */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
+
 .form-button:hover {
-  
+  background-color: dodgerblue;
+  color: #fff;
 }
