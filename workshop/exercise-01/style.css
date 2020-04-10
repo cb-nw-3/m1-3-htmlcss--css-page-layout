@@ -15,6 +15,11 @@ i can use the .item class to center them */
     flex-direction: column;
 }
 
+
+/* why does the item include display, align-items, and justify contet? */
+/* because the container is for the whole page, and each item itself must
+be seen like as small page, and it needs to be centered, and aligned to the center
+ */
 .item {
     text-align: center;
     align-items: center;
