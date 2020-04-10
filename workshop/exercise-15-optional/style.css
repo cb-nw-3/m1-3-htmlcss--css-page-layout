@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.container {
+    display: flex;
+    /* border: 10px solid goldenrod; */
+    margin: 20px 20px;
+    /* justify-content: space-between; */
+    /* padding: 20px 20px; */
+}
+
+.btn {
+    /* border: 5px solid red; */
+    padding: 10px 20px;
+    margin: 10px 3px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    font-size: 1.5em;
+}
+
+.btn-outline-primary {
+    border: 2px solid dodgerblue;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-outline-secondary {
+    border: 2px solid grey;
+    background-color: white;
+    color: grey;
+}
+
+.btn-outline-success {
+    border: 2px solid mediumseagreen;
+    background-color: white;
+    color: mediumseagreen;
+}
+
+.btn-outline-danger {
+    border:2px solid salmon;
+    background-color: white;
+    color: salmon;
+}
+
+.btn-outline-warning {
+    border:2px solid rgb(243, 222, 30);
+    background-color: white;
+    color:rgb(243, 222, 30);
+}
+
+.btn-outline-info {
+    border:2px solid steelblue;
+    background-color: white;
+    color: steelblue;
+}
+
+.btn-outline-light {
+    border: mintcream;
+    background-color: mintcream;
+    color: black;
+}
+
+.btn-outline-dark {
+    border: #3a3633;
+    background-color: #3a3633;
+    color: #fff;
+}
+
+.btn-outline-link {
+    border: white;
+    background-color: white;
+    color: dodgerblue;
+}
+
