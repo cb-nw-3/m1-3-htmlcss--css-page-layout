@@ -20,8 +20,6 @@ body {
 }
 
 .main {
-    top: 50%;
-    left: 50%;
     text-align: center;
     /* 70px is the combined height of both nav and footer elements */
     min-height: calc(100vh - 70px);
