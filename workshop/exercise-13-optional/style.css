@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.alert {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+p::after {
+  content: "\2014 check it out!";
+}
+
+.alert-primary {
+  background-color: lightblue;
+  color: blue;
+}
+
+.alert-secondary {
+  background-color: #ddd;
+  color: rgb(49, 45, 45);
+}
+
+.alert-success {
+  background-color: rgb(161, 216, 161);
+  color: green;
+}
+.alert-danger {
+  background-color: rgb(228, 123, 123);
+  color: brown;
+}
+
+.alert-warning {
+  background-color: rgb(235, 227, 158);
+  color: goldenrod;
+}
+
+.alert-info {
+  background-color: rgb(176, 209, 224);
+  color: rgb(57, 89, 104);
+}
+.alert-light {
+  color: rgb(143, 140, 140);
+}
+.alert-dark {
+  background-color: #ddd;
+}
