@@ -54,3 +54,8 @@ h1 {
 .btn-block {
     margin: 5px 20px;
 }
+
+/* created another class for opacity */
+.op {
+    opacity: 0.5;
+}
