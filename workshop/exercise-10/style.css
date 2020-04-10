@@ -13,12 +13,25 @@ body {
 
 
 .fast {
-  /* pos needs to be relative to current natural pos */
-  position: relative;
+  /* if using slideInAlt then set pos rel */
+  /* position: relative; */
   animation: slideIn 2s infinite ease-in-out;
+  /* animation: slideIn 2s infinite ease-in-out; */
 }
 
 @keyframes slideIn {
+  from {
+    transform: translateX(300px);
+    opacity: 0.3;
+  }
+  to {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+/* instead of using translateX() */
+@keyframes slideInAlt {
   from {
     left: 300px;
     opacity: 0.3;
@@ -45,4 +58,5 @@ body {
 .cool:hover {
   transform: scale(1.3);
   /* transition: all 1s ease-in-out; */
+  cursor: pointer;
 }
