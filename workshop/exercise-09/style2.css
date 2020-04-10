@@ -1,0 +1,24 @@
+.facts tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    padding: 20px;
+    justify-content: space-between;
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+td {
+    padding: 10px;
+}
+
+.links > a {
+    background-color: blue;
+}
+
+/* li > a {
+    background-color: blue;
+} */
