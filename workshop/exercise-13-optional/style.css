@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.container {
+    display: flex;
+    margin: 10px 10px;
+    min-height: 100vh;
+    /* border: 10px solid goldenrod; */
+    flex-direction: column;
+}
+
+.alert {
+    margin: 10px 10px;
+    padding: 5px 25px;
+    border: 1px solid mistyrose;
+    border-radius: 10px;
+}
+
+.alert > p::after {
+    content:"--Check it out!";
+}
+
+.alert-primary {
+    border: 1px solid lightblue;
+    background-color:lightsteelblue;
+    color: darkblue;
+}
+
+.alert-secondary {
+    border: 1px solid darkgrey;
+    background-color:lightgrey;
+    color: grey;
+}
+
+.alert-success {
+    border: 1px solid green;
+    background-color:lightgreen;
+    color: green;
+}
