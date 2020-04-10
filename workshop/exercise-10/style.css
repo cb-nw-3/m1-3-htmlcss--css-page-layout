@@ -15,7 +15,7 @@ body {
 .fast {
   /* pos needs to be relative to current natural pos */
   position: relative;
-  animation: slideIn 1s ease-in-out;
+  animation: slideIn 2s infinite ease-in-out;
 }
 
 @keyframes slideIn {
