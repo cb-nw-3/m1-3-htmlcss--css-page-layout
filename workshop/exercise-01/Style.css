@@ -1,0 +1,44 @@
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navigation {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.content {
+    background-color: white;
+    height: fit-content;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
