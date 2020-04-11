@@ -1,70 +1,71 @@
-html{
-    font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    box-sizing: border-box;
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .nav {
-    background-color: #383737;
-    height: fit-content;
+  background-color: #383737;
+  height: fit-content;
 }
 
 .nav-dropdown {
-    position: relative;
-    color: #fff;
-    background: rgba(22,22,22,0);
-    display: inline-block;
-    padding: 30px;
-    font-size: large;
-    -webkit-transition: background .5s ease-out;
-    -moz-transition: background .5s ease-out;
-    -o-transition: background .5s ease-out;
-    transition: background .5s ease-out;
+  position: relative;
+  color: #fff;
+  background: rgba(22, 22, 22, 0);
+  display: inline-block;
+  padding: 30px;
+  font-size: large;
+  -webkit-transition: background 0.5s ease-out;
+  -moz-transition: background 0.5s ease-out;
+  -o-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
 }
 
-.nav-dropdown:hover{
-    background: rgba(22,22,22,1);
-    cursor: pointer;
+.nav-dropdown:hover {
+  background: rgba(22, 22, 22, 1);
+  cursor: pointer;
 }
 
-.nav-dropdown:hover ul[role="menubar"]{
-    display: block;
+.nav-dropdown:hover ul[role='menubar'] {
+  display: block;
 }
 
-ul[role="menubar"]{
-    display: none;
-    margin-top: 30px;
-    width: 260px;
-    position: absolute;
-    background-color: lightblue;
-    border-radius: 0 0 8px 8px;
-    font-weight: bold;
+ul[role='menubar'] {
+  display: none;
+  margin-top: 30px;
+  width: 260px;
+  position: absolute;
+  background-color: lightblue;
+  border-radius: 0 0 8px 8px;
+  font-weight: bold;
 }
 
-li, ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-ul[role="menubar"]>li{
-    display: block;
-    padding: 15px 25px;
+ul[role='menubar'] > li {
+  display: block;
+  padding: 15px 25px;
 }
 
-ul[role="menubar"]>li:last-child{
-    border-radius: 0 0 8px 8px;
+ul[role='menubar'] > li:last-child {
+  border-radius: 0 0 8px 8px;
 }
 
-ul[role="menubar"]>li:hover{
-    background-color: dodgerblue;
+ul[role='menubar'] > li:hover {
+  background-color: dodgerblue;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }

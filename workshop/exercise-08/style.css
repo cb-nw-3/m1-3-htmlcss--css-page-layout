@@ -1,119 +1,171 @@
-html{
-    font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    box-sizing: border-box;
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-  
+
 body {
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 5em;
-    min-height: 90vh;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5em;
+  min-height: 90vh;
 }
 
 .header {
-    margin: 0;
-    margin-bottom: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 2.5em;
-    background-color: dodgerblue;
-    color: white;
-    box-shadow: 2px 2px 8px black;
-
+  margin: 0;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 2.5em;
+  background-color: dodgerblue;
+  color: white;
+  box-shadow: 2px 2px 8px black;
 }
 
 .registration-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid dodgerblue;
-    min-width: 70vw;
-    flex:1;
-    border-radius: 4px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgray;
+  min-width: 70vw;
+  flex: 1;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px darkgray;
 }
 
-.registration-form>div:first-of-type + div {
-    border-top: 0.5px solid lightgray;
+.registration-form > div:first-of-type + div {
+  border-top: 0.5px solid lightgray;
 }
 
-.registration-form>div:first-of-type + div + div{
-    padding-top:0;
-    margin-top: 0;
-    padding-bottom: 25px; 
-    border-bottom: 0.5px solid lightgray;
+.registration-form > div:first-of-type + div + div {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid lightgray;
 }
-
 
 .text-field {
-    display: block;
-    width: 350px;
+  display: block;
+  width: 350px;
 }
 
-.radio-label,
-.checkbox-label {
-    /* background-color: dodgerblue; */
+.radio-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
+.radio-label input {
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.checkMark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 22px;
+  width: 22px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid dodgerblue;
+}
+
+.checkMark:hover {
+  background-color: darkgray;
+}
+
+.radio-label input:checked {
+  background-color: #2196f3;
+}
+
+.checkMark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+input[type='radio'] {
+}
+
+.input[type='radio']:checked {
+  border: 0px;
+  width: 100%;
+  height: 4em;
+}
+/* 
+.radio-label .checkMark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}  */
 
 textarea {
-    height: 8em;
-    width: 100%;
+  height: 8em;
+  width: 100%;
 }
 
 .section {
-    margin-top: 1.5em;     
-    min-width: 68vw;
-    text-align: left;
-}
-
-
-.section > label {
-    
+  margin-top: 1.5em;
+  min-width: 68vw;
+  text-align: left;
 }
 
 select {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 textarea {
-    border-radius: 5px;
-    background-color: rgba(125,125,125, 0.1);
+  border-radius: 5px;
+  background-color: rgba(125, 125, 125, 0.1);
 }
 
 .form-button {
-   width: 140px;
-   height: 60px;
-   font-size: medium;
-   background-color: white;
-   border: 1px solid dodgerblue;
-   margin-bottom: 30px;
-   
+  width: 140px;
+  height: 60px;
+  font-size: medium;
+  background-color: white;
+  border: 1px solid dodgerblue;
+  margin-bottom: 30px;
 }
 
 .form-button:hover {
-   background-color: rgba(63, 147, 231,1); 
-   color: white;
-   font-weight: 600;
-   cursor: pointer;
+  background-color: rgba(63, 147, 231, 1);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-input{
-    border-style: solid;
-    border-color: lightblue;
-    padding: 8px;
-    border-radius: 6px;
-    font-size: medium;
+input {
+  border-style: solid;
+  border-color: lightblue;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: medium;
 }
 
-.registration-form>div:first-of-type + div + div + div + div{
-    display: flex;
-    width: 67vw;
-    flex-direction: column;
-    padding: 30px 0;
+.registration-form > div:first-of-type + div + div + div + div {
+  display: flex;
+  width: 67vw;
+  flex-direction: column;
+  padding: 30px 0;
 }

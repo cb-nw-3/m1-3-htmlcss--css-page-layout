@@ -1,17 +1,17 @@
-html{
-  font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
   overflow: hidden;
 }
 
-.panel{
+.panel {
   background: url('imgs/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,13 +20,10 @@ body{
   height: 100vh;
 }
 
-h1{
+h1 {
   margin: 0;
   padding: 0;
   line-height: 100vh;
   text-shadow: 2px 2px 8px goldenrod;
   letter-spacing: 2px;
 }
-
-
-

@@ -1,17 +1,17 @@
-html{
-  font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
   overflow: hidden;
 }
 
-.panel{
+.panel {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body{
   justify-content: center;
 }
 
-h1{
+h1 {
   font-size: x-large;
   padding: 10px 30px;
   border: 2px solid black;
@@ -28,33 +28,30 @@ h1{
   letter-spacing: 1.1px;
 }
 
-h2{
+h2 {
   font-size: xx-large;
   letter-spacing: 2px;
 }
 
-.msg{
+.msg {
   font-size: x-large;
   font-weight: 300;
   max-width: 24em;
 }
 
-a{
+a {
   color: #336690;
   font-weight: 700;
   font-size: 1.7em;
   text-decoration: none;
 }
 
-a::after{
-  content:'>';
+a::after {
+  content: '>';
   display: inline-block;
   padding-left: 12px;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-
-
-

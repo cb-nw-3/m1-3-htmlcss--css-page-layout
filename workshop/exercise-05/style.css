@@ -1,27 +1,26 @@
-html{
-  font-family: 'Poppins','Muli', 'Arial', 'helvetica neue',sans-serif;
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
   overflow: hidden;
 }
 
-.panel{
+.panel {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-.row{
+.row {
   display: flex;
   display: row;
   align-items: stretch;
@@ -29,12 +28,7 @@ body{
   height: 33vh;
 }
 
-img{
-
+img {
   min-width: 33%;
-  border: 0.5px solid red
+  border: 0.5px solid red;
 }
-
-
-
-
