@@ -3,34 +3,59 @@
 } */
 
 body {
-    margin: 10px 10px;
+    margin: 20px 10px;
     font-family: "Poppins";
 }
 
 .card {
-
+    border: 1.1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    max-width: 95%;
+    margin: 10px auto;
+    /* text-align: center; */
+    /* min-height: 400px; */
 }
 
 .card-header {
-
+    border-bottom: 1.1px solid lightgray;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    font-size: 20px;
 }
 
 .card-body {
-
+    /* border: 10px solid goldenrod; */
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 2px solid red; */
+    border-radius: 4px;
+    padding: 15px;
 }
 
 .card-title {
-
+    margin: 10px 0;
+    font-size: 1.5rem;
 }
 
 .card-text {
+    font-size: 110%;
+}
 
+.card-body > a {
+    text-decoration: none;
 }
 
 .btn {
-
+    display: inline-flex;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
+
+
 .btn-primary {
-    
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: #fff;
 }
