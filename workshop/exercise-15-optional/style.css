@@ -1,0 +1,61 @@
+body {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.btn {
+  padding: 7px 12px;
+  border-radius: 4px;
+  margin-right: 2px;
+  background-color: white;
+}
+
+.btn:last-of-type {
+  margin-right: 0px;
+}
+
+.btn-primary {
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+.btn-secondary {
+  border: 1px solid rgb(138, 130, 130);
+  color: rgb(138, 130, 130);
+}
+
+.btn-success {
+  border: 1px solid rgb(20, 160, 20);
+  color: rgb(20, 160, 20);
+}
+
+.btn-danger {
+  border: 1px solid red;
+  color: red;
+}
+
+.btn-warning {
+  border: 1px solid rgb(255, 206, 73);
+  color: rgb(255, 206, 73);
+}
+
+.btn-info {
+  border: 1px solid rgb(20, 163, 182);
+  color: rgb(20, 163, 182);
+}
+.btn-light {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-dark {
+  border: 1px solid #3a3633;
+  color: 3a3633;
+}
+
+.btn-link {
+  border: 1px solid white;
+  color: white;
+}

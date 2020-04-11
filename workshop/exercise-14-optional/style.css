@@ -1,0 +1,61 @@
+body {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.btn {
+  padding: 7px 12px;
+  border-radius: 4px;
+  margin-right: 2px;
+  border: 0;
+}
+
+.btn:last-of-type {
+  margin-right: 0px;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+  color: white;
+}
+.btn-secondary {
+  background-color: rgb(138, 130, 130);
+  color: white;
+}
+
+.btn-success {
+  background-color: rgb(20, 160, 20);
+  color: white;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-warning {
+  background-color: rgb(255, 206, 73);
+  color: black;
+}
+
+.btn-info {
+  background-color: rgb(20, 163, 182);
+  color: white;
+}
+.btn-light {
+  background-color: white;
+  color: black;
+}
+
+.btn-dark {
+  background-color: #3a3633;
+  color: white;
+}
+
+.btn-link {
+  background-color: white;
+  color: dodgerblue;
+}

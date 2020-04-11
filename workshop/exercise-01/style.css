@@ -16,7 +16,7 @@ body {
 .bar {
   background-color: dimgray;
   color: white;
-  flex: 5;
+  flex: 2;
 }
 
 .centered {
