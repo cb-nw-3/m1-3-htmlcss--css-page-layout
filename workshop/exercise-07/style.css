@@ -1,7 +1,39 @@
 body {
   margin: 0;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .mobile-nav-button img {
   width: 18px;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+ul{
+  display:flex;
+  list-style-type: none;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+li{
+  margin:10px;
+}
+
+@media (min-width:800px){
+  .mobile-nav{
+    display:none;
+  }
+}
+@media (max-width:799px){
+  .desktop-nav{
+    display:none;
+  }
 }

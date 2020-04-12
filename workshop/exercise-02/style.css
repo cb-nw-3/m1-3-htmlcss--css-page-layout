@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: "Poppins";
+}
+
+nav{
+    background-color:#3a3633 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    padding-right:70px;
+    color:white;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+a:hover{
+    opacity:0.5;
+}
+
+img{
+    padding-right:70px;
+    display: block;
+}

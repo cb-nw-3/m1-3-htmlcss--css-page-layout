@@ -45,6 +45,8 @@ Add the following to your HTML page(s)
 
 This will make the CSS pixels scale on mobile devices.
 
+C:The meta tag changes the scale of pixels for various devices
+
 ---
 
 The same site _fixed_
@@ -110,6 +112,8 @@ Change the flex direction based on the orientation
 
 https://codepen.io/joshwcomeau/pen/wvaVMpJ?editors=1100
 
+
+Ok here are my notes: So, the objects are set to stretch by default on the non-dominant axis. So if items are in a row, they will stretch up and down to match the longest one in the document to fill out as much as the doc as they can. Dans l'autre sens, si c'est en horizontal, les objects vont stretch de gauche à droite pour prendre l'espace et match l'objet le plus grand, pcq c'est lui qui définit la largeur du document dans le fond. Si tu veux que ton document prennent tout ton view port, tu ajoutes comme dans l'exercice 1 min-height:100vh. Comme ça, même si ton objet prendrait pas d'espace en soit pcq il est juste comme, un mot, si tu lui donne l'ordre d'être flex 1, donc de prendre 100pourcent du contenant et que le contenant est gros comme ton viewport, ben il va stretch jusqu'à ce que ça l'arrive. 
 ---
 
 # Exercise 3
@@ -178,3 +182,21 @@ Two ways to do this.
 
 - Transition
 - Keyframe animations
+
+
+## Project notes
+
+Create a landing page. 
+
+Header with links
+
+Hero (tagline and such)
+
+services
+
+Cool box
+box with animation
+gradiant background
+Images with scaling effect
+Widget 
+Footer with links

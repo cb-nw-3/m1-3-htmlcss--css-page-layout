@@ -11,7 +11,7 @@ body {
     color: #fff;
     text-decoration: none;
     position: relative;
-    display: inline-block;
+    display:inline-block;
 }
 
 .nav-dropdown:hover > .dropdown-menu {
