@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.column {
+    flex: 1;
+    /* To get 3 equal-width columns. */
+}
+
+.image {
+    width: 100%;
+    /* add image in column and set width: 100% so that the image 
+    fills the column without distorting its height */
+}
+
+ /* block-level elements like div default to being 100% of the available space. 
+ So .row fills the entire space made available by body, which is the entire window.
+  When the window size changes, .row shrinks (since it's 100% of a smaller window), 
+  and each .column shrinks to take up 1/3rd of that space. 
+  The image takes up 100% of that column */
