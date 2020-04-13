@@ -1,7 +1,46 @@
 body {
   margin: 0;
 }
+.container {
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+}
+.container header h1 {
+  flex: 1;
+  text-align: center;
+}
+.container header nav {
+  flex: 1;
+  text-align: right;
+}
+
+.mobile-nav {
+  display: none;
+  margin-right: 10px;
+}
 
 .mobile-nav-button img {
   width: 18px;
+}
+
+.desktop-nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+
+.desktop-nav li:last-of-type {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobile-nav {
+    display: inline;
+  }
+  .desktop-nav {
+    display: none;
+  }
 }

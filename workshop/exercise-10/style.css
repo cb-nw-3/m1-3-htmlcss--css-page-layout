@@ -8,9 +8,60 @@ body {
   align-items: center;
   justify-content: center;
 }
+.main div {
+  display: block;
+}
 
 .fast {
+  position: absolute;
+  animation: tagMove 2s ease-in-out;
 }
 
 .cool {
+  margin-top: 75px;
+  background-color: #3987c9;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+.cool:hover {
+  animation: bounce 1.5s ease-in-out;
+  box-shadow: 5px 5px #93badb;
+}
+
+@keyframes tagMove {
+  from {
+    right: 0;
+  }
+  to {
+    right: 45%;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  10% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1) rotate(90deg);
+  }
+  70% {
+    transform: scale(1.2) rotate(90deg);
+  }
+  80% {
+    transform: scale(1) rotate(180deg);
+  }
+  90% {
+    transform: scale(1.1) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
 }
