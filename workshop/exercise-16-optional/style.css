@@ -1,0 +1,37 @@
+body {
+}
+
+.section {
+  margin: 50px;
+}
+
+.btn {
+  padding: 7px 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+}
+
+.btn-secondary {
+  background-color: #726c68;
+}
+
+.btn-lg {
+  font-size: 1.2rem;
+}
+
+.btn-sm {
+  font-size: 0.7rem;
+}
+
+.btn-block {
+  display: block;
+  width: 100vh;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}

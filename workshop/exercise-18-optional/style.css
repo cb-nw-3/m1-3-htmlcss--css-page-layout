@@ -1,0 +1,27 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid rgb(206, 203, 203);
+  border-radius: 4px;
+}
+
+.card-header {
+  background-color: rgb(240, 234, 234);
+  border-bottom: 1px solid rgb(206, 203, 203);
+  padding: 20px;
+}
+
+.list-group {
+  padding: 0px;
+  margin: 0px;
+}
+
+.list-group-item {
+  list-style-type: none;
+  padding: 20px;
+  border-bottom: 1px solid rgb(206, 203, 203);
+}
