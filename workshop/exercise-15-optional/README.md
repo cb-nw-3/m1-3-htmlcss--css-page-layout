@@ -14,4 +14,3 @@ Build upon what you did in exercise 14.
 ```
 
 Note: The `type="button"` attribute isn't important for this exercise
-
