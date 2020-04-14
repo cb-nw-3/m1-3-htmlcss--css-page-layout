@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Arial', 'helvetica neue', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  overflow: hidden; /*This property specifies whether to clip content or to add scrollbars when an element's*/
+  display: flex;
+  flex-direction: column;
+  height: 100hv;
+}
+
+.alert {
+  transition: transform 0.3s ease-in-out;
+  max-height: 10vh;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+p:after {
+  content: '-check it out!';
+}
+
+p {
+  padding: 14px;
+  margin: 0;
+}
+
+.alert-primary {
+  background-color: lightsteelblue;
+  color: #2f5791;
+}
+
+.alert-secondary {
+  background-color: lightgray;
+}
+
+.alert-success {
+  background-color: #d9ecdb;
+  color: darkgreen;
+}
+
+.alert-danger {
+  background-color: #f3d8da;
+  color: #85474a;
+}
+
+.alert-warning {
+  background-color: #fef4cd;
+  color: #856417;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #195460;
+}
+
+.alert-light {
+  color: #818182;
+  background-color: #fcfcfc;
+}
+.alert-dark {
+  background-color: #d6d8da;
+}
+
+.alert:hover {
+  display: block;
+  transform: scale(1.02);
+  cursor: pointer;
+}

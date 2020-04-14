@@ -17,8 +17,6 @@ This `px` unit is **not** a screen pixel, but a CSS pixel.
 
 ---
 
-### Example of a Desktop site
-
 <img src="./assets/nresp_desktop.png" />
 
 ---
