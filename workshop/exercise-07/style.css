@@ -5,3 +5,39 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+h1 {
+  margin: 0;
+}
+
+.desktop-nav > ul {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.desktop-nav > ul > li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.desktop-nav > ul > li:last-of-type {
+  padding-right: 0px;
+}
+
+.mobile-nav {
+  display: none;
+  padding-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

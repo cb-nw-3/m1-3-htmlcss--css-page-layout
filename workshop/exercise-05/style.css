@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+  width: 100%;
+  outline: red solid 1px;
+}

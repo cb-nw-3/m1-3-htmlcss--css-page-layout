@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.bar {
+  background-color: #3a3633;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > a {
+  text-decoration: none;
+  margin: 0px 40px;
+  color: white;
+  transition: opacity 200ms ease-in-out;
+}
+
+nav > a:hover {
+  opacity: 0.4;
+}
+
+.image {
+  display: block;
+}

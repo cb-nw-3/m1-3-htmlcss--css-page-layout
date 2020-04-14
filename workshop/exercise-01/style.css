@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 90;
+}
+
+.bar {
+  background-color: dimgray;
+  color: white;
+  flex: 2;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
