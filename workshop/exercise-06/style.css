@@ -4,10 +4,54 @@ body {
 
 .nav {
     background-color: #383737;
+
 }
 
 .nav-dropdown {
+    height: 100px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    /* what is this */
+    position: relative;
+    /* An element with position: relative; is positioned relative to its normal or natural (or static) position. 
+    So we move it in reference to its original position. 
+    */
+}
+
+.nav-dropdown:hover > .dropdown-menu  {
+    background-color: #03a9f4;
+    display: block; 
+    position: absolute;
+    /* It is positioned with reference to its parent element which is dropdown nav??.  */
+    top: 100%;
+    left: 0; 
+}
+.dropdown-menu {
+    display: none;
+    /* what does none mean */
+}
+
+.menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* .menu-list > li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu-list > li:hover {
+    background-color: red;
+} */
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+ li:hover {
+    background-color: red;
 }
