@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-image: url("imgs/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  color: white;
+  font-family: "poppins";
+  text-align: center;
+  margin: 30%;
+}
