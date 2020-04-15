@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", "Arial", "helvetica neue", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  overflow: hidden; /*This property specifies whether to clip content or to add scrollbars when an element's*/
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+}
+
+.btn {
+  min-height: 40px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 4px;
+  transition: transform 0.3s ease-in-out;
+  font-weight: 700;
+  border: none;
+  color: white;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+}
+
+.btn-lg {
+  font-size: x-large;
+  padding: 12px 22px;
+}
+.btn-secondary {
+  background-color: #3f3a3a;
+}
+
+.btn-success {
+  color: forestgreen;
+  border: 1px solid forestgreen;
+}
+
+.btn-sm {
+  font-size: small;
+  letter-spacing: 1.5px;
+  padding: 12px 22px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+hr {
+  width: 98vw;
+}
+
+.btn.btn-primary[disabled] {
+  background-color: cornflowerblue;
+}
+
+.btn.btn-secondary[disabled] {
+  background-color: lightgrey;
+}
+
+.btn[disabled]:hover {
+  transform: scale(1);
+  cursor: not-allowed;
+}

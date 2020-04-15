@@ -1,3 +1,22 @@
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(210px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes coolButton {
+  0% {
+  }
+  100% {
+    transform: scale(1.4) rotate(360deg);
+  }
+}
+
 body {
   margin: 0;
 }
@@ -10,7 +29,22 @@ body {
 }
 
 .fast {
+  position: relative;
+  animation: slideInFromRight 2s ease;
 }
 
 .cool {
+  height: 50px;
+  width: 130px;
+  border-radius: 6px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  box-shadow: 0 0 5px 5px darkgrey;
+  text-transform: uppercase;
+}
+
+.cool:hover {
+  cursor: pointer;
+  animation: coolButton 1s ease-in-out;
 }

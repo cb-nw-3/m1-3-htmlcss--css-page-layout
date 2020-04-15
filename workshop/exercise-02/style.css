@@ -1,0 +1,36 @@
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.panel {
+  color: white;
+  background-color: #3a3633;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel > ul > li {
+  margin: 0 40px;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.panel > ul > li:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+}

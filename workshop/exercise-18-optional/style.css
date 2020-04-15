@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Arial', 'helvetica neue', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  overflow: hidden; /*This property specifies whether to clip content or to add scrollbars when an element's*/
+}
+
+.card {
+  border: 2px solid lightgray;
+  max-width: 95%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.card-header {
+  padding: 15px 20px;
+  background-color: rgba(22, 22, 22, 0.05);
+}
+
+.list-group {
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 5px 5px;
+  list-style-type: none;
+}
+
+.list-group-item {
+  padding: 15px 20px;
+  border-top: 2px solid lightgray;
+  list-style-type: none;
+}

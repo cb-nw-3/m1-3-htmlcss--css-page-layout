@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Arial', 'helvetica neue', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  overflow: hidden; /*This property specifies whether to clip content or to add scrollbars when an element's*/
+  display: flex;
+  min-width: 100vw;
+}
+
+.btn {
+  min-height: 40px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 4px;
+  padding: 0 22px;
+  transition: transform 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.btn-primary {
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+
+.btn-secondary {
+  color: gray;
+  border: 1px solid gray;
+}
+
+.btn-success {
+  color: forestgreen;
+  border: 1px solid forestgreen;
+}
+
+.btn-danger {
+  color: #cc4f38;
+  border: 1px solid #cc4f38;
+}
+
+.btn-warning {
+  color: orange;
+  border: 1px solid orange;
+}
+
+.btn-info {
+  color: steelblue;
+  border: 1px solid steelblue;
+}
+
+.btn-light {
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+
+.btn-dark {
+  color: black;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  display: block;
+  transform: scale(1.05);
+  cursor: pointer;
+}

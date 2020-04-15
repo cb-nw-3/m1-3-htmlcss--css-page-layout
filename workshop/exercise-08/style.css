@@ -1,49 +1,166 @@
+html {
+  font-family: 'Poppins', 'Muli', 'Arial', 'helvetica neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Poppins, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5em;
+  min-height: 90vh;
 }
 
 .header {
-
+  margin: 0;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 2.5em;
+  background-color: dodgerblue;
+  color: white;
+  box-shadow: 2px 2px 8px black;
 }
 
 .registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgray;
+  min-width: 70vw;
+  flex: 1;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px darkgray;
+}
 
+.registration-form > div:first-of-type + div {
+  border-top: 0.5px solid lightgray;
+}
+
+.registration-form > div:first-of-type + div + div {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid lightgray;
 }
 
 .text-field {
-
+  display: block;
+  width: 350px;
 }
 
-.radio-label,
-.checkbox-label {
-
+.radio-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-label {
-
+.radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0px;
+  width: 0px;
 }
 
-.section {
-
+.checkMark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 12px;
+  width: 12px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid dodgerblue;
 }
 
-.section > label {
-
+.checkMark:hover {
+  background-color: darkgray;
 }
 
-select {
+.radio-label input:checked ~ .checkMark {
+  background-color: dodgerblue;
+}
 
+.checkMark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.radio-label input:checked ~ .checkMark:after {
+  display: block;
+}
+
+.radio-label .checkMark:after {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
 }
 
 textarea {
+  height: 8em;
+  width: 100%;
+}
 
+.section {
+  margin-top: 1.5em;
+  min-width: 68vw;
+  text-align: left;
+}
+
+select {
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  background-color: rgba(125, 125, 125, 0.1);
 }
 
 .form-button {
-
+  width: 140px;
+  height: 60px;
+  font-size: medium;
+  background-color: white;
+  border: 1px solid dodgerblue;
+  margin-bottom: 30px;
 }
 
 .form-button:hover {
-    
+  background-color: rgba(63, 147, 231, 1);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input {
+  border-style: solid;
+  border-color: lightblue;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: medium;
+}
+
+.registration-form > div:first-of-type + div + div + div + div {
+  display: flex;
+  width: 67vw;
+  flex-direction: column;
+  padding: 30px 0;
 }
