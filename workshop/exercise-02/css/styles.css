@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navBar {
+  background-color: #3a3633;
+  text-align: center;
+}
+
+a {
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 0 20px 0;
+}
+.navBar img {
+  vertical-align: middle;
+}
+
+a:hover {
+  opacity: 0.2;
+}
