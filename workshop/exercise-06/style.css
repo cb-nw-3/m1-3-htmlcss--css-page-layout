@@ -1,13 +1,44 @@
 body {
-    margin: 0;
+  margin: 0;
+  font-size: large;
 }
 
 .nav {
-    background-color: #383737;
+  background-color: #383737;
+  position: relative;
 }
 
 .nav-dropdown {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+}
+
+.nav-dropdown:hover + .menu {
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  bottom: -123px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  color: #fff;
+  display: none;
+}
+
+.menu:hover {
+  display: block;
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+.menu-item:hover {
+  background-color: blue;
 }

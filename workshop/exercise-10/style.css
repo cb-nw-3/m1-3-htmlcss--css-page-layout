@@ -10,7 +10,49 @@ body {
 }
 
 .fast {
+  animation-name: move;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 
 .cool {
+  padding: 20px;
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  box-shadow: 0 0 10px 0px grey;
+}
+
+.cool:hover {
+  animation-name: resize;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(100px);
+    color: white;
+  }
+  to {
+    transform: translateX(0);
+    color: black;
+  }
+}
+
+@keyframes resize {
+  0% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  95% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
