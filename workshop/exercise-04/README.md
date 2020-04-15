@@ -1,10 +1,10 @@
 # 1.2 - CSS: Page Layout - Workshop
 
-## Exercise 6
+## Exercise 6 <-- Should be Excercise 4
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-6 goal](../../assets/ex-6-goal.png)
+![exercise-6 goal](../../assets/ex-6-goal.png) <-- I think this should be ex-4-goal.png
 
 ### Reference
 
@@ -14,28 +14,28 @@ You can use the `::after` pseudoelement to add an arrow to the "Find a store" li
 
 ```css
 .link::after {
-  content: '>';
+  content: ">";
 }
 ```
 
 ### Properties Needed
 
 ```
-font-family
-text-align
-border
-border-radius
-padding
-line-height
-font-size
-max-width
-margin
-margin-top
-color
-text-decoration
-content
-padding-left
-display
-:hover
-::after
+font-family checked
+text-align checked
+border checked
+border-radius checked
+padding checked
+line-height checked
+font-size checked
+max-width checked
+margin checked
+margin-top checked
+color checked
+text-decoration checked
+content checked
+padding-left checked
+display checked
+:hover checked
+::after checked
 ```

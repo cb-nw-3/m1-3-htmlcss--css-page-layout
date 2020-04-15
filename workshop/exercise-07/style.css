@@ -2,6 +2,46 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 100%;
+}
+
+.container header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  flex: 4;
+  float: right;
+}
+
+.desktop-nav ul {
+  list-style: none;
+}
+
+.desktop-nav ul li,
+.mobile-nav button {
+  float: right;
+  margin-right: 25px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+@media (max-width: 800px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
 }

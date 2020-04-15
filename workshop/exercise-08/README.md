@@ -9,22 +9,22 @@ Update only the CSS file to reproduce the following:
 Needed CSS properties
 
 ```
-box-shadow
-margin-bottom
-border-radius
+box-shadow -
+margin-bottom -
+border-radius -
 max-width
 box-sizing
-border-top
+border-top -
 text-align
 margin-left
-width
+width -
 min-height
 margin-top
-padding
-font-size
+padding -
+font-size -
 border
 margin
-display
+display -
 cursor
 transition
 background-color

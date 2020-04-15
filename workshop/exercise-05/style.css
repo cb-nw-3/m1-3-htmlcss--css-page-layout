@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  outline: red solid;
+}
+
+img {
+  width: 100%;
+}

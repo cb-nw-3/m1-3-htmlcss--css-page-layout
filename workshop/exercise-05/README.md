@@ -16,9 +16,9 @@ Create an `index.html` file and a `style.css` file that reproduces the following
 ### Properties Needed
 
 ```
-margin
-width
-display
-outline
-flex
+margin checked
+width checked
+display checked
+outline checked
+flex checked
 ```
