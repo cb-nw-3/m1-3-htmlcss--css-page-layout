@@ -4,46 +4,128 @@ body {
 }
 
 .header {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    font-size: 30px;
+    background-color: royalblue;
+    color:white;
 }
 
+h1:hover {
+ display: none;
+}
+
+/* the whole form */
 .registration-form {
-
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
+/* USERNAME FIELDS */
 .text-field {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 30px;
+    border: 2px rgb(0, 145, 255)solid;
 }
 
 .radio-label,
 .checkbox-label {
-
+text-align: left;
 }
 
+/* USERNAME ETC */
 label {
+   text-align: center;
 
 }
 
+/* PICKUP SECTION DONE */
 .section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: left;
 
 }
 
+/* PICKUP TEXT DONE */
 .section > label {
+    /* display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: left; */
+    text-align: left;
+    margin-left: 30px;
 
 }
 
+/* SELECT BOX DONE */
 select {
+    align-self: inherit;
+    width: 100px;
+    margin-left: 20px;
 
 }
 
+/* TEXT AREA DONE */
 textarea {
-
+width: 90%;
+height: 100px;
+padding: 20px 20px;
+color: grey;
+background-color: grey;
+margin: 30px 30px;
 }
 
+/* BOTTOM BUTTON DONE */
 .form-button {
-
+    width: 200px;
+    height: 30px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: blue 2px solid;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
+/* DONE */
 .form-button:hover {
-    
+    background-color: royalblue;
 }
+
+
+
+/* box-shadow
+margin-bottom
+border-radius
+max-width
+box-sizing
+border-top
+text-align
+margin-left
+width
+min-height
+margin-top
+padding
+font-size
+border
+margin
+display
+cursor
+transition
+background-color
+color
+:hover */
