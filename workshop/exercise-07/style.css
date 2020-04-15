@@ -2,6 +2,43 @@ body {
   margin: 0;
 }
 
+.desktop-nav {
+  float: right;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.mobile-nav {
+  float: right;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+@media (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .desktop-nav {
+    display: none;
+  }
 }

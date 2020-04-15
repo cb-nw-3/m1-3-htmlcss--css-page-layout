@@ -10,7 +10,44 @@ body {
 }
 
 .fast {
+  animation: helloAnimation 1s ease-in-out;
+}
+
+@keyframes helloAnimation {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
 .cool {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0.5rem;
+}
+
+.cool:hover {
+  animation: coolAnimation 1s ease-in-out;
+}
+
+@keyframes coolAnimation {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  /* 50% {
+    transform: scale(0.5) rotate(180deg);
+  } */
+
+  to {
+    transform: scale(1) rotate(360deg);
+  }
 }

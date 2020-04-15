@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: black;
+  opacity: 80%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+a:hover {
+  color: grey;
+}
