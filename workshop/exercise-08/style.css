@@ -1,46 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
 }
 
 .header {
+    display: flex;
+    justify-content: center
+
 
 }
 
 .registration-form {
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: none;
 
 }
 
 .text-field {
-
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: none;
+    display:flex;
+    width: 100%;
 }
 
 .radio-label,
 .checkbox-label {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center
 
 }
 
-label {
+label { 
+    display: flex;
+    justify-content: center;
+ 
+
 
 }
 
 .section {
+    border-top: 1px solid lightblue;
+
+
 
 }
 
 .section > label {
+    display:flex;
+    justify-content: flex-start
 
 }
 
 select {
+    margin: 10px;
+    display: flex;
+    justify-content: center
 
 }
 
 textarea {
+    width: 100%;
+    background-color: lightblue;
+    border: none;
 
 }
 
 .form-button {
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: none;
+    left: 50%
+
 
 }
 

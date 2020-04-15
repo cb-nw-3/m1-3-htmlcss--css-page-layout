@@ -2,6 +2,55 @@ body {
   margin: 0;
 }
 
+header{
+  display: flex;
+  flex-direction: row
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  right:0;
+}
+
+li{
+  margin-right: 20px
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+.mobile-nav{
+  margin-top:20px;
+  margin-right: 10px;
+  position: absolute;
+  display: flex;
+  right:0
+}
+
+.desktop-nav{
+  margin-top:20px;
+  display:flex;
+}
+
+@media (min-width: 800px) {
+  .mobile-nav-button {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  ul {
+    display: none;
+  }
 }
