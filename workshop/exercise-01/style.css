@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bar {
+  height: 50px;
+  background: black;
+  color: white;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  flex: 6;
+}
