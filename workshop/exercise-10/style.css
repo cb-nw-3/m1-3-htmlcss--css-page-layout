@@ -10,7 +10,32 @@ body {
 }
 
 .fast {
+  animation-name: Hello;
+  animation-duration: 2s;
+  transition: ease-in-out 1s;
 }
 
-.cool {
+
+@keyframes Hello {
+  from {transform: translateX(200px);}
+  to {transform: translateX(0px);}
 }
+
+
+.cool {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 15px;
+  transition: 1s;
+  box-shadow: 5px 10px #888888;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(2);
+  cursor: grab;
+}
+

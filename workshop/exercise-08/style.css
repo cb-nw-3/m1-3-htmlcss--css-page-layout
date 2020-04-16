@@ -9,7 +9,6 @@ body {
     justify-content: center;
     text-align: center;
     height: 80px;
-    width: 100%;
     font-size: 30px;
     background-color: royalblue;
     color:white;
@@ -23,14 +22,17 @@ h1:hover {
 .registration-form {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-content: center;
-    text-align: center;
     margin: 30px 30px 30px 30px;
     box-shadow: 5px 5px 5px 5px gray;
 }
 
-/* USERNAME FIELDS */
+div > label {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* USERNAME RECTANGLES */
 .text-field {
     display: block;
     margin-left: auto;
@@ -39,44 +41,40 @@ h1:hover {
     height: 30px;
     border: 2px rgb(0, 145, 255)solid;
 }
+/* we make text fields display block
+just for the last div so it does not go to default row 
+inline because display block makes it a block element and
+now we can use margin auto*/
+
 
 .radio-label,
 .checkbox-label {
 text-align: left;
+padding-left: 40px;
 }
 
 /* USERNAME ETC */
 label {
-   text-align: center;
-
+text-align: center;
 }
 
-/* PICKUP SECTION DONE */
+
+/* TAXI SECTION DONE */
 .section {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-content: left;
-
+    padding-left: 20px;
 }
+/* margin 0 inherited from body */
 
 /* PICKUP TEXT DONE */
 .section > label {
-    /* display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-content: left; */
     text-align: left;
-    margin-left: 30px;
-
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 /* SELECT BOX DONE */
 select {
-    align-self: inherit;
-    width: 100px;
-    margin-left: 20px;
-
+width: 100px;
 }
 
 /* TEXT AREA DONE */
@@ -108,24 +106,3 @@ margin: 30px 30px;
 
 
 
-/* box-shadow
-margin-bottom
-border-radius
-max-width
-box-sizing
-border-top
-text-align
-margin-left
-width
-min-height
-margin-top
-padding
-font-size
-border
-margin
-display
-cursor
-transition
-background-color
-color
-:hover */
