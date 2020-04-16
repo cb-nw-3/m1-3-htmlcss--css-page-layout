@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 100%;
+  outline: 1px solid red;
+}

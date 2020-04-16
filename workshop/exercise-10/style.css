@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Poppins, sans-serif;
 }
 
 .main {
@@ -9,8 +10,61 @@ body {
   justify-content: center;
 }
 
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .fast {
+  animation: slideIn 1s ease-in-out;
 }
 
 .cool {
+  padding: 20px;
+  font-size: 1rem;
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px 6px #ccc;
+  outline: none;
 }
+
+.cool:hover {
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.50, 2.50, 0.50, -1.0);
+  transition-duration: 0.8s;
+}
+
+/* Bonnus tested */
+
+/* .cool:hover {
+    animation: bounce 1s ease-in-out;
+} */
+
+/* @keyframes bounce {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  80% {
+    transform: scale(1.2) rotate(290deg);
+  }
+
+  90% {
+    transform: scale(0.8 rotate(320deg));
+  }
+
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+} */
