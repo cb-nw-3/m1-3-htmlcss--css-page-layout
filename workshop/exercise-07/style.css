@@ -1,7 +1,50 @@
+@media (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .desktop-nav {
+    display: none;
+  } 
+}
+
 body {
   margin: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+.mobile-nav {
+  margin: 0 15px;
+}
+
+.desktop-nav {
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display: inline;
+  padding-right: 40px;
+  list-style-type: none;
+  flex: 1 0 auto;
 }

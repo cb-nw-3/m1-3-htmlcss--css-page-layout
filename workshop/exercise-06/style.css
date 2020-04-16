@@ -4,10 +4,47 @@ body {
 
 .nav {
     background-color: #383737;
+    color: white;
+    padding: 10px;
+}
+
+.ul:hover {
+    background: #1483fa;
 }
 
 .nav-dropdown {
     color: #fff;
     text-decoration: none;
+    position: relative;
     display: inline-block;
+}
+
+.nav-dropdown:hover > .menu {
+    display: block;
+}
+
+/* we make this absolute to remove it from the document flow. */
+
+/* why 29 pixels? And why does it only work sporadically? */
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 29px; 
+    left: -10px;
+}
+
+ul {
+    background: #15b1e6;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li:hover {
+    background: #1483fa;
 }
