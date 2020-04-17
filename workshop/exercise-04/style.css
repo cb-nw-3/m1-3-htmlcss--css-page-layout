@@ -1,0 +1,40 @@
+body{
+    margin: 0em;
+    font-family: poppins,sans-serif;
+}
+ .main-content{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .box{
+    color: black;
+    border: black 0.5px solid;
+    border-radius: 5px;
+    padding: 4px;
+    line-height: 2;
+    font-size: 2rem;
+    display: inline-block;
+ }
+ .main-content h2{
+    margin: 10px;
+ }
+ .main-content p{
+    margin: auto;
+    max-width: 500px;
+ }
+ a{
+   margin-top: auto;
+ }
+ .link{
+    color: blue;
+    text-decoration:none;
+    display: inline;
+ }
+ .link:hover{
+     text-decoration: underline;
+ }
+ .link::after{
+     content:'>';
+     padding: 5px;
+     display: inline-block;
+ }

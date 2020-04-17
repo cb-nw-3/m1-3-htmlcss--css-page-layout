@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: poppines;
+}
+.nav {
+    padding: 10px;
+    background-color: #3a3633;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav > a {
+    color: white;
+    margin: 0 40px;
+    text-decoration: none;
+    transition: opacity 0.5s ease-in-out;
+}
+.logo{
+    display: block;
+}
+.nav > a:hover {
+    opacity: 0.5;
+}
+

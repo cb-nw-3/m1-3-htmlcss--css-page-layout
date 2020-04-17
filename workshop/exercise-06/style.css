@@ -4,10 +4,39 @@ body {
 
 .nav {
     background-color: #383737;
+    display:inline-block;
 }
 
 .nav-dropdown {
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    padding: 25px;
+    position: relative;
+}
+
+.nav-dropdown:hover >.dropdown-menu{
+  display: flex;
+  background-color: blue;
+  top: 100%;
+  left:0;
+  position: absolute;
+}
+
+.dropdown-menu{
+   display: none;
+}
+
+.menu-list{
+   margin: 0;
+   padding: 0;
+}
+
+.menu-list > li{
+   list-style-type: none;
+   padding: 20px;
+}
+
+.menu-list > li:hover{
+    background-color: cornflowerblue;
 }
