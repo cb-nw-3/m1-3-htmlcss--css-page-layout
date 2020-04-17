@@ -1,3 +1,15 @@
+@media (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -5,3 +17,38 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.desktop-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.desktop-nav ul li {
+  margin: 0 20px;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+/* 
+Syntax needed
+@media
+:last-of-type
+
+Properties Needed
+display
+justify-content
+align-items
+padding
+margin
+list-style
+*/
