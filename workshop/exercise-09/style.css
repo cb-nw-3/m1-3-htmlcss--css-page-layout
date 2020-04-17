@@ -1,3 +1,67 @@
 h3 {
   margin-bottom: 0;
 }
+
+.header {
+  text-align: center;
+}
+
+.facts {
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 25px;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.links li {
+  flex: 1;
+  margin: 10px;
+}
+
+.links a {
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+th {
+  text-align: left;
+}
+
+
+/*
+```
+border-spacing
+border-radius
+border
+background-color
+margin-bottom
+justify-content
+flex
+margin-right
+list-style-type
+text-decoration
+color
+padding
+display
+box-sizing
+text-align
+width
+:nth-child(even)
+:last-child
+```
+*/

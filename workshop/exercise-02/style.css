@@ -1,0 +1,71 @@
+/* whoever reviews this code please don't judge me LOL */
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    flex: 1;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 25px;
+}
+
+img {
+    display: block;
+}
+
+a>img:hover {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+/* 
+padding
+background-color
+align-items
+justify-content
+color
+margin
+font-family
+text-decoration
+transition
+display
+opacity
+:hover
+*/

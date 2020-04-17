@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    text-align: center;
+    max-width: 650px;
+    margin-top: 25px;
+}
+
+.button {
+    padding: 25px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link::after {
+    content: '>';
+    text-decoration: none;
+}
+
+/*
+font-family
+text-align
+border
+border-radius
+padding
+line-height
+font-size
+max-width
+margin
+margin-top
+color
+text-decoration
+content
+padding-left
+display
+:hover
+::after
+*/

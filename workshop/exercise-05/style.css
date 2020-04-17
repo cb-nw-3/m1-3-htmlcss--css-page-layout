@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.row .column {
+    display: block;
+    flex: 1;
+}
+
+.row .column img {
+    width: 100%;
+    outline: 1px solid red;
+}
