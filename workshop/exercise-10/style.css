@@ -10,7 +10,53 @@ body {
 }
 
 .fast {
+  animation: left 1s ease-in-out;
 }
 
 .cool {
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 2px 2px grey;
+  background-color: dodgerblue;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+
 }
+
+.cool:hover {
+  transform: scale(1.1)
+}
+
+
+@keyframes left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Syntax needed
+@keyframes
+Properties Needed
+transform
+opacity
+animation
+padding
+border
+background-color
+color
+box-shadow
+border-radius
+font-size
+cursor
+text-transform
+hover
+
+*/
