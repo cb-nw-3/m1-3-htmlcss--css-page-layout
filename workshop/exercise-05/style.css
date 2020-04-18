@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 33.333%;
+    outline: solid 1px red;
+}

@@ -9,8 +9,51 @@ body {
   justify-content: center;
 }
 
+@keyframes slideFadeIn {
+  from {opacity: 0;
+        transform: translateX(100%);
+  }
+  to {opacity: 1;
+      transform: translateX(0%);
+  }
+}
+
+@keyframes flipJump {
+  from {
+    transform: scale(1) rotate(0deg);
+}
+50% {
+  transform: scale(1.25) rotate(290deg);
+}
+75% {
+  transform: scale(0.75 rotate(320deg));
+}
+to {
+  transform: scale(1) rotate(360deg);
+}
+}
+
 .fast {
+  animation: slideFadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 
 .cool {
+  color:white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: dodgerblue;
+  text-align: center;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px 2px lightgrey;
+}
+
+.cool:hover {
+  animation: flipJump;
+  animation-duration: 1s;
+  cursor: pointer;
+  animation-timing-function: ease-in-out;
 }
