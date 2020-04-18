@@ -1,0 +1,28 @@
+body {
+    font-family:  'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color:  #3a3633;
+}
+
+.menu-item {
+    padding: 0 30px 0 30px;
+    color:white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo {
+    display: block;
+}
+
+.navbar>a:hover {
+    opacity: .5;
+}

@@ -2,6 +2,42 @@ body {
   margin: 0;
 }
 
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+img {
+  margin-right: 25px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 25px;
+}
+
+li {
+  margin: 0 25px 0 25px;
+}
+
+/* Media queries */
+@media only screen and (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
 }
