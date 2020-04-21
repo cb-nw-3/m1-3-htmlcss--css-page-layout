@@ -13,7 +13,6 @@ Sometimes, we want need to use a more convoluted targeting method. 😜
 
 ---
 
-
 ## CSS Pixels
 
 - Your monitor is divided into pixels (screen pixels).
@@ -130,7 +129,7 @@ Media queries can be used to check many things, such as:
 - `:checked`
 - `:first-child`
 
-[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link)  |  [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
+[Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link) | [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
 
 ---
 
@@ -152,4 +151,3 @@ Media queries can be used to check many things, such as:
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
 
 ---
-

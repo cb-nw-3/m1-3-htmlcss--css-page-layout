@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bar {
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  flex: 1;
+}

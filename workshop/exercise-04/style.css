@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+.container {
+  text-align: center;
+  margin-top: 10px;
+}
+.brow {
+  /* text-align: center; */
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px 15px;
+  font-size: 60px;
+  line-height: 1.47;
+  font-size: 1rem;
+  display: inline-block;
+  /* margin-top: 20px; */
+}
+.container > h1 {
+  margin: 8px;
+}
+
+.container > p {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.container > a {
+  margin-top: 6px;
+}
+
+.link {
+  color: #0070c9;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link::after {
+  content: ">";
+  padding-left: 8px;
+  display: inline-block;
+}

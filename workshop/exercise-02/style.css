@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+.logo {
+  display: block;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 50px;
+  color: white;
+  transition: opacity 0.2s ease-in-out;
+}
+.nav {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.nav > a:hover {
+  opacity: 0.5s;
+  color: gray;
+}
