@@ -4,46 +4,105 @@ body {
 }
 
 .header {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+    background-color: royalblue;
+    color:white;
 }
 
+h1:hover {
+ display: none;
+}
+
+/* the whole form */
 .registration-form {
-
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
+div > label {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* USERNAME RECTANGLES */
 .text-field {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 30px;
+    border: 2px rgb(0, 145, 255)solid;
 }
+/* we make text fields display block
+just for the last div so it does not go to default row 
+inline because display block makes it a block element and
+now we can use margin auto*/
+
 
 .radio-label,
 .checkbox-label {
-
+text-align: left;
+padding-left: 40px;
 }
 
+/* USERNAME ETC */
 label {
-
+text-align: center;
 }
 
+
+/* TAXI SECTION DONE */
 .section {
-
+    padding-left: 20px;
 }
+/* margin 0 inherited from body */
 
+/* PICKUP TEXT DONE */
 .section > label {
-
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
+/* SELECT BOX DONE */
 select {
-
+width: 100px;
 }
 
+/* TEXT AREA DONE */
 textarea {
-
+width: 90%;
+height: 100px;
+padding: 20px 20px;
+color: grey;
+background-color: grey;
+margin: 30px 30px;
 }
 
+/* BOTTOM BUTTON DONE */
 .form-button {
-
+    width: 200px;
+    height: 30px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: blue 2px solid;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
+/* DONE */
 .form-button:hover {
-    
+    background-color: royalblue;
 }
+
+
+

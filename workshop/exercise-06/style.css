@@ -4,10 +4,42 @@ body {
 
 .nav {
     background-color: #383737;
+
 }
 
 .nav-dropdown {
+    height: 100px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    position: relative;
+  
+}
+
+.nav-dropdown:hover > .dropdown-menu  {
+    background-color: #03a9f4;
+    display: block; 
+    position: absolute;
+    top: 100%;
+    left: 0; 
+}
+.dropdown-menu {
+    display: none;
+
+}
+
+
+.menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+ li:hover {
+    background-color: red;
 }
