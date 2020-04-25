@@ -4,46 +4,66 @@ body {
 }
 
 .header {
-
+    background: #11c0fa;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
 }
 
 .registration-form {
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgba(20, 20, 20, 0.2), 0 1px 10px 0 rgba(20, 20, 20, 0.2);
+    width: 70vw;
+    margin: 60px auto;
+    padding: 20px;
 
 }
 
 .text-field {
-
+    display: block;
+    margin: 10px auto;
 }
 
 .radio-label,
 .checkbox-label {
-
+    text-align: left;
 }
 
 label {
-
+    display: block;
+    text-align: center;
 }
 
 .section {
-
+    border-top: 1px solid lightgrey;
 }
 
 .section > label {
-
+    text-align: left;
 }
 
 select {
-
+ 
 }
 
 textarea {
-
+    display: block;
+    width: 100%;
+    min-height: 100px;
 }
 
 .form-button {
-
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background: white;
+    border: 1px solid steelblue;
 }
 
 .form-button:hover {
-    
+    cursor: hand;
+    background: steelblue;
+    color: white;
 }
