@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.alert.alert-primary{
+    border: 1px solid grey;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: blue;
+    margin: 5px;
+    padding: 10px
+}
+
+.alert.alert-secondary{
+    border: 1px solid grey;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+    padding: 10px
+}
+
+.alert.alert-success{
+    border: 1px solid grey;
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: green;
+    margin: 5px;
+    padding: 10px
+}
+
+.alert.alert-danger{
+    border: 1px solid grey;
+    background-color: coral;
+    border-radius: 5px;
+    color: red;
+    margin: 5px;
+    padding: 10px
+}
+
+.alert.alert-warning{
+    border: 1px solid grey;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    color: orange;
+    margin: 5px;
+    padding: 10px
+}
+
+.alert.alert-info{
+    border: 1px solid grey;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: blue; 
+    margin: 5px;
+    padding: 10px
+}
+.alert.alert-light{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    color: grey; 
+    margin: 5px;
+    padding: 10px
+}
+.alert.alert-dark{
+    border: 1px solid grey;
+    background-color: silver;
+    border-radius: 5px;
+    color: black; 
+    margin: 5px;
+    padding: 10px
+}

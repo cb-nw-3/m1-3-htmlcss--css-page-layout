@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.btn.btn-primary{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    flex: .75;
+    text-align: center;
+    height: 75%
+}
+
+.btn.btn-secondary{
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    flex: .75;
+    text-align: center;
+    height: 75%
+}
+
+.btn.btn-success{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    flex: .75;
+    text-align: center;
+    height: 75%
+}
+
+.btn.btn-danger{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    flex: .50;
+    text-align: center;
+    height: 75%
+}
+
+.btn.btn-warning{
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+    padding: 2px;
+    flex: .66;
+    text-align: center;
+    height: 75%
+}
+
+.btn.btn-info{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: blue; 
+    margin: 5px;
+    padding: 2px;
+    flex: .33;
+    text-align: center;
+    height: 75%
+}
+.btn.btn-light{
+    background-color: white;
+    border-radius: 5px;
+    color: black; 
+    margin: 5px;
+    padding: 2px;
+    flex: .50;
+    text-align: center;
+    height: 75%
+}
+.btn.btn-dark{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    flex: .50;
+    text-align: center;
+    height: 75%
+}

@@ -13,8 +13,8 @@ Create an `index.html` file and a `style.css` file that reproduces the following
 You can use the `::after` pseudoelement to add an arrow to the "Find a store" link, e.g.
 
 ```css
-.link::after {
-  content: '>';
+.link:;:after {
+  content: '>'
 }
 ```
 

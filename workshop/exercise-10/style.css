@@ -10,7 +10,29 @@ body {
 }
 
 .fast {
+  animation: mymove 5s infinite;
+  position: relative
 }
 
-.cool {
+
+button.cool {
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px
+}
+
+button.cool:active{
+  transform: scale(1.2);
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 150px;
+  box-shadow: 2px 4px #888888
+}
+
+@keyframes mymove {
+  from {transform: translateX(400px)}
+  to {transform: translateX(0px)}
 }
